@@ -1,0 +1,31 @@
+{
+  "output_file": "settings.json",
+  "bot_response": {
+    "type": "textbox",
+    "value": "@{0}: You triggered me!",
+    "label": "Bot Response",
+    "tooltip": "The Message the Bot will give after it was triggered.",
+    "group": "Texts"
+  },
+  "keywords": {
+    "type": "textbox",
+    "value": "keyword1,keyword2,keyword3",
+    "label": "Keywords",
+    "tooltip": "Comma Separated Keywords for the Bot to react.",
+    "group": "Texts"
+  },
+  "list": {
+    "type": "textbox",
+    "value": "!keywords",
+    "label": "Listing Command",
+    "tooltip": "The Command for printing all current Keywords in Chat.",
+    "group": "Commands"
+  },
+  "list_enable": {
+    "type": "checkbox",
+    "value": false,
+    "label": "Use List Command",
+    "tooltip": "To display Keywords in Chat?",
+    "group": "Commands"
+  }
+}
